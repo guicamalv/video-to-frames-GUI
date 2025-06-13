@@ -6,7 +6,7 @@ A simple Python app with a graphical interface that extracts frames from a video
 
 - GUI with `tkinter`
 - Supports common video formats: `.mp4`, `.avi`, `.mov`, `.mkv`, etc.
-- Saves each frame as `.jpg` in the selected output folder
+- User can choose to save frames as `.jpg` (lossy) or `.png` (lossless)
 
 ## ✅ Requirements
 
@@ -24,11 +24,10 @@ python app.py
 
 ## 📸 Output
 
-All frames will be saved as:
+All frames will be saved in the selected format as:
 
 ```
-frame_00000.jpg
-frame_00001.jpg
+frame_00000.jpg or frame_00000.png
 ...
 ```
 
